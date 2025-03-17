@@ -24,6 +24,7 @@
         align-items: center; /* Centraliza verticalmente */
     
     }
+
     .conteiner{
         width: 80%;
     }
@@ -35,7 +36,7 @@
 /*-----------------------------------------------------Section-----------------------------------------------------*/
 .site{
     display: flex;
-    flex-direction: column;
+    flex-direction: line;
     justify-content: center;
     gap: 24px;
 }
