@@ -21,9 +21,10 @@
     }
     .logo{
         display: flex;
+        align-items: center; /**/
         padding-top: 60px;
         filter: invert(1);
-        max-width: 200px; /* Define a largura máxima da caixa-icone */
+        max-width: 250px; /* Define a largura máxima da caixa-icone */
         height: auto; /* Permite que a altura da caixa-icone se ajuste ao conteúdo */
     } 
     .conteiner{
