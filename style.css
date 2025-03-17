@@ -1,7 +1,7 @@
 @media (max-width: 768px) { /* Estilos para telas menores (celulares) */
     body {
         font-size: 16px;
-        background: url('img/fundo.jpeg') no-repeat center fixed;
+        background: url('img/fundocelular.jpg') no-repeat center fixed;
 
     }
 
@@ -13,11 +13,16 @@
 @media (min-width: 769px) { /* Estilos para telas maiores (tablets e desktops) */
     body {
         font-size: 18px;
-        background: url('img/fundo.jpeg') no-repeat center fixed;
+        background: url('img/fundodesktop.jpeg') no-repeat center fixed;
 
         font-size: 100%;
         background-size: cover;
         opacity: 1;
+
+        display: flex; /* Ativa o Flexbox no body */
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza verticalmente */
+    
     }
     .conteiner{
         width: 80%;
