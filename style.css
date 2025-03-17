@@ -11,7 +11,14 @@
         justify-content: center;
         gap: 24px;
     }
-    
+    .relogio-calendario {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /*align-items: center; /**/
+        gap: 10px;
+        /*position: relative; /* Adicionado para posicionar o container */
+    }
     .conteiner{
         width: 100%;
     }
@@ -37,6 +44,12 @@
         flex-direction: row; /**/
         justify-content: center;
         gap: 24px;
+    }
+    .relogio-calendario {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: relative; /* Adicionado para posicionar o container */
     }    
     .conteiner{
         width: 80%;
@@ -178,12 +191,7 @@ span{
     height: auto; /* Permite que a altura da caixa-icone se ajuste ao conteúdo */
 }
 /*-----------------------------------------------------Relógio e Calendário-----------------------------------------------------*/
-.relogio-calendario {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    position: relative; /* Adicionado para posicionar o container */
-}
+
 #calendario {
     width: 250px;
 }
