@@ -9,10 +9,6 @@
         background-attachment: fixed; /* Faz o fundo fixar enquanto o conteúdo rola */
         background-size: 100% 100%; /* Faz o fundo cobrir toda a tela, independentemente da orientação */
         height: 100vh; /* Garante que o fundo cubra toda a altura da tela */
-
-
-
-
     }
     .site{
         display: flex;
@@ -32,6 +28,7 @@
     .logo{
         display: flex;
         align-items: center; /**/
+        justify-content: center;
         padding-top: 60px;
         filter: invert(1);
         max-width: 250px; /* Define a largura máxima da caixa-icone */
