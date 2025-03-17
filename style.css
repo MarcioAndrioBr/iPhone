@@ -4,12 +4,14 @@
         background: url('img/fundocelular.jpg') no-repeat center fixed;
 
     }
-    .site1{
+    .site{
         display: flex;
-        flex-direction: row;
+        flex-direction: column; /**/
+        /*flex-direction: row; /**/
         justify-content: center;
         gap: 24px;
     }
+    
     .conteiner{
         width: 100%;
     }
@@ -31,10 +33,11 @@
     }
     .site{
         display: flex;
-        flex-direction: line;
+        /*flex-direction: column;
+        flex-direction: row; /**/
         justify-content: center;
         gap: 24px;
-    }
+    }    
     .conteiner{
         width: 80%;
     }
@@ -44,12 +47,11 @@
     scroll-margin-top: 100px; /* Ajuste conforme a altura do cabeçalho */
 }
 /*-----------------------------------------------------Section-----------------------------------------------------*/
-.site{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 24px;
-}
+
+
+
+
+
 
 .caixa-icone {
     display: flex; /* Define a caixa-icone como um flex container */
