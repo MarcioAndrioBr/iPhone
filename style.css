@@ -29,7 +29,7 @@
         align-items: center; /* Centraliza verticalmente */
     
     }
-    .site{
+    .site1{
         display: flex;
         flex-direction: line;
         justify-content: center;
