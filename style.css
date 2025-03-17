@@ -1,24 +1,27 @@
-@media (max-width: 768px) {
-/* Estilos para telas menores (celulares) */
-body {
-    font-size: 16px;
-    background: url('img/fundo.jpeg') no-repeat center fixed;
+@media (max-width: 768px) { /* Estilos para telas menores (celulares) */
+    body {
+        font-size: 16px;
+        background: url('img/fundo.jpeg') no-repeat center fixed;
 
-}
-.conteiner{
-    width: 100%;
-}
+    }
+
+    .conteiner{
+        width: 100%;
+    }
 }
   
-@media (min-width: 769px) {
-    /* Estilos para telas maiores (tablets e desktops) */
-body {
-    font-size: 18px;
-    background: url('img/fundo.jpeg') no-repeat center fixed;
-}
-.conteiner{
-    width: 80%;
-}
+@media (min-width: 769px) { /* Estilos para telas maiores (tablets e desktops) */
+    body {
+        font-size: 18px;
+        background: url('img/fundo.jpeg') no-repeat center fixed;
+
+        font-size: 100%;
+        background-size: cover;
+        opacity: 1;
+    }
+    .conteiner{
+        width: 80%;
+    }
 }
 
 
