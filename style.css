@@ -16,7 +16,7 @@
         flex-direction: column;
         justify-content: center;
         /*align-items: center; /**/
-        gap: 10px;
+        gap: 20px;
         /*position: relative; /* Adicionado para posicionar o container */
     }
     .conteiner{
