@@ -1,7 +1,7 @@
 @media (max-width: 768px) { /* Estilos para telas menores (celulares) */
     body {
         font-size: 16px;
-        background: url('img/fundocelular.jpg') no-repeat center fixed;
+        background: url('img/fundocelular.jpeg') no-repeat center fixed;
 
         background-size: cover;
         opacity: 1;
@@ -27,13 +27,16 @@
     }
     .logo{
         display: flex;
-        align-items: center; /**/
+        align-items: center;
         justify-content: center;
         padding-top: 60px;
         filter: invert(1);
-        max-width: 250px; /* Define a largura máxima da caixa-icone */
-        height: auto; /* Permite que a altura da caixa-icone se ajuste ao conteúdo */
-    } 
+        max-width: 250px;
+        height: auto;
+
+        width: 80%; /* Ou outra largura desejada */
+        margin: 0 auto; /* Centraliza o elemento pai horizontalmente */
+    }
     .conteiner{
         width: 100%;
     }
