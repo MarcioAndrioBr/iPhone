@@ -1,7 +1,7 @@
 @media (max-width: 768px) { /* Estilos para telas menores (celulares) */
     body {
         font-size: 16px;
-        background: url('img/fundocelular.jpeg') no-repeat center fixed;
+        background: url('img/fundocelular.jpg') no-repeat center fixed;
 
         background-size: cover;
         opacity: 1;
