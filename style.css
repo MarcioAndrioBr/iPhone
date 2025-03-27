@@ -1,7 +1,7 @@
 @media (max-width: 768px) { /* Estilos para telas menores (celulares) */
     body {
         font-size: 16px;
-        background: url('img/fundocelular.jpg') no-repeat center fixed;
+        background: url('img/fundocelular.jpeg') no-repeat center fixed;
 
         background-size: cover;
         opacity: 1;
@@ -128,6 +128,7 @@ h1 { /* Título */
     align-items: center;
     /*gap: 2px;/**/
     text-align: center; /* Centraliza o texto */
+    cursor: pointer;
 }
 .targeta {
     display: flex;
@@ -268,4 +269,18 @@ span{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -100%);
+}
+/*-----------------------------------------------------Estilo do pop-up-----------------------------------------------------*/
+.popup {  
+    display: none; /**/
+    text-align: center; /* Centraliza o texto */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    z-index: 1000;
 }
